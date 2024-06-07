@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.drum-kit {
+    margin: 20px 0;
+}
+
+.drum {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.drum:hover {
+    background-color: #777;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.controls button:disabled {
+    background-color: #999;
+}
